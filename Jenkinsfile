@@ -9,7 +9,9 @@ pipeline{
           
         }
       stage('Two') {
-          ste
+          steps {
+              
+          }
       }
     } 
 }
