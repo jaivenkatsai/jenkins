@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Wed Feb 02 2022 15:19:15 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .idea/.gitignore
+* .idea/jenkins.iml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/runConfigurations.xml
+* .idea/vcs.xml
+
+
+Deleted files:
+
+
+Renamed files:
