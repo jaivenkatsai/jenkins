@@ -8,6 +8,8 @@ pipeline{
           }
           
         }
-      stage('Two') {}
+      stage('Two') {
+          ste
+      }
     } 
 }
