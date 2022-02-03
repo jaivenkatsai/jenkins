@@ -25,7 +25,7 @@ pipeline{
     environment {
         SAMPLE_URL = 'google.com'
     }
-    stages {
+//   stages {
 
 //       stage('one') {
 //           agent {
