@@ -6,7 +6,7 @@ pipeline{
 //           }
 //     }
    
-    
+    environment
     stages {
 
         stage('one') {
