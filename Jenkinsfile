@@ -34,7 +34,7 @@ pipeline{
         }    
           steps {
               sh 'echo Hello world'
-              sh 'echo ${SAMPLE}'
+              sh 'echo ${SAMPLE_URL}'
           }
       }
     }
