@@ -28,8 +28,8 @@ pipeline{
     stages {
 
         stage('one') {
-            agent {
-                node {
+//           agent {
+//               node {
 //                 label 'NODEJS'
 //             }
 //         }
