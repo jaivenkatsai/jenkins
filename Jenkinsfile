@@ -41,7 +41,7 @@ pipeline{
 
         stage('Two') {
             when {
-                environment name: 
+                environment name: 'SAMPLE'
             }
             agent {
                 node {
