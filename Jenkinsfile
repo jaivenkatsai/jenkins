@@ -77,7 +77,7 @@ pipeline {
                     }
                 }
                 stage('p2') {
-                    
+                    steps
                 }
             }
         }
