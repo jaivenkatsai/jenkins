@@ -87,7 +87,9 @@ pipeline {
                     }
                 }
             }
-        stage('par')
+        stage('par2') {
+            
+        }
         }
     }
 }
