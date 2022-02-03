@@ -82,7 +82,9 @@ pipeline {
                     }
                 }
                 stage('p3') {
-                    steps
+                    steps {
+                        sh 
+                    }
                 }
             }
         }
