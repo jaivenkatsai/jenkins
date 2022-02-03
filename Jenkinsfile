@@ -99,8 +99,7 @@ pipeline {
                         sh 'sleep 100'
                     }
                 }
-                stage
-           }
+                stage('p3')           }
         }
         }
     }
