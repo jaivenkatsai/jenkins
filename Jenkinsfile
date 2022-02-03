@@ -1,6 +1,7 @@
 pipeline{
     agent none
-    agent{
+      agent {
+n
           
       stage('one') {
           steps {
