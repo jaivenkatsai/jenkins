@@ -5,7 +5,8 @@ pipeline{
              lable 'WORKSTATION'
          }
       } 
-    stages('one') {
+    stages
+    ('one') {
           agent {
             node 
               sh 'echo Hello World'
