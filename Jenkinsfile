@@ -101,7 +101,7 @@ pipeline {
                 }
                 stage('p3') {
                     steps {
-                        
+                        sh ''
                     }
                 }           }
         }
