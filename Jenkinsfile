@@ -19,7 +19,7 @@ pipeline{
 //       booleanParam(name: 'TOGGLE', defaultValue: true, description: 'Togle this Value')
 //
 //       choice(name: 'CHOICE', choices: ['one', 'tow', 'three'], description: 'pick something')
-//
+
 //       password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
 //   }
 //   environment {
