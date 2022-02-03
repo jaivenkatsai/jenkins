@@ -64,6 +64,8 @@ pipeline{
 pipeline {
     agent any
     stages {
-        stage('seq1')
+        stage('seq1') {
+            
+        }
     }
 }
