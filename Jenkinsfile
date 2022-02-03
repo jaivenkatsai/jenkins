@@ -9,7 +9,7 @@ pipeline{
          
         stage ('one') {
            agent {
-               node {}
+               node {
               sh 'echo Hello World'
           }
           
