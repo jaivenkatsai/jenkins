@@ -21,8 +21,8 @@ pipeline{
         choice(name: 'CHOICE', choices: ['one', 'tow', 'three'], description: 'pick something')
 
         password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
-    }
-    environment {
+//   }
+//   environment {
 //        SAMPLE_URL = 'google.com'
 //    }
 //   stages {
