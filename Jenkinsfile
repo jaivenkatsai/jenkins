@@ -20,7 +20,7 @@ pipeline{
         }
         stage('Two') {
             agent {
-                
+                node{}
             }
           steps {
               sh 'echo Hello world'
