@@ -9,7 +9,7 @@ pipeline{
 
     parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should i say hello to?')
-        text(name: BIOGRAPHY, de)
+        text(name: BIOGRAPHY, defaultValue)
     }
     environment {
         SAMPLE_URL = 'google.com'
