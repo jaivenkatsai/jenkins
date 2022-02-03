@@ -7,7 +7,9 @@ pipeline{
 //     }
     options { disableConcurrentBuilds() }
 
-    tools {}
+    tools {
+        maven
+    }
 
     parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should i say hello to?')
