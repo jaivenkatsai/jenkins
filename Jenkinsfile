@@ -5,7 +5,7 @@ pipeline{
 //              label 'WORKSTATION'
 //           }
 //     }
-    ptions{ .disableConcurrentBuilds() }
+    options{ .disableConcurrentBuilds() }
     environment {
         SAMPLE_URL = 'google.com'
     }
