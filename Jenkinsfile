@@ -10,8 +10,8 @@ pipeline{
     parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should i say hello to?')
         text(name: BIOGRAPHY, defaultValue: '', description: 'Enter some information about the person')
-        boleanParam(name: TOGGLE, defaultValue: true, description: 'Togle this Value')mething
-        choice(name: 'CHOICE', choices: ['one', 'tow', 'three'], description: 'pick so')
+        boleanParam(name: TOGGLE, defaultValue: true, description: 'Togle this Value')
+        choice(name: 'CHOICE', choices: ['one', 'tow', 'three'], description: 'pick something')
     }
     environment {
         SAMPLE_URL = 'google.com'
