@@ -10,7 +10,7 @@ pipeline{
         stage ('one') {
            agent {
                node {
-              sh 'echo Hello World'
+                  lable 
           }
           
         }
