@@ -1,4 +1,4 @@
-pipeline{
+ipeline{
     agent none
 //       agent {
 //          node{
