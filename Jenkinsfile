@@ -2,7 +2,7 @@ pipeline{
     agent none
       agent {
          node {
-             lable ''
+             lable 'WORKSTATION'
          }
           
       stage('one') {
