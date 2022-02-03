@@ -5,6 +5,7 @@ pipeline{
 //              label 'WORKSTATION'
 //           }
 //     }
+
     stages {
 
         stage('one') {
