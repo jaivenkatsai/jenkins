@@ -9,9 +9,9 @@ pipeline{
 
     tools {
         maven 'maven'
-    }
+//   }
 
-    parameters {
+//   parameters {
 //        string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should i say hello to?')
 
 //        text(name: 'BIOGRAPHY', defaultValue: '', description: 'Enter some information about the person')
