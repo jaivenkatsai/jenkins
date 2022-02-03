@@ -1,6 +1,6 @@
 pipeline{
     agent none
-        agent {
+//       agent {
            node{
                lable 'WORKSTATION'
            }
