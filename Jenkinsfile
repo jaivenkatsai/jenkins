@@ -8,7 +8,7 @@ pipeline{
     options { disableConcurrentBuilds() }
 
     parameters {
-        string(name: 'PERSON', de)
+        string(name: 'PERSON', defaultValue: )
     }
     environment {
         SAMPLE_URL = 'google.com'
