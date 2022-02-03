@@ -19,7 +19,7 @@ pipeline{
           }
             steps {
               sh 'echo Hello World'
-              sh 'echo ${'
+              sh 'echo ${SAMPLE_URL'
           }
         }
 
