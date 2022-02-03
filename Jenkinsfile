@@ -78,7 +78,7 @@ pipeline {
                 }
                 stage('p2') {
                     steps {
-                        sh ''
+                        sh 'sleep 100'
                     }
                 }
             }
