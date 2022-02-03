@@ -23,8 +23,8 @@ pipeline{
         password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
     }
     environment {
-        SAMPLE_URL = 'google.com'
-    }
+//        SAMPLE_URL = 'google.com'
+//    }
 //   stages {
 
 //       stage('one') {
