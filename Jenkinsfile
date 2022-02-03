@@ -47,7 +47,7 @@ pipeline{
           steps {
               sh 'echo Hello world'
               sh 'echo ${SAMPLE_URL}'
-              sh 
+              sh 'mvn--'
           }
       }
     }
