@@ -10,7 +10,7 @@ pipeline{
       stage('one') {
           agent {
               node {
-                  lable 'NOE'
+                  lable 'NODEJS'
               }
           }
           steps {
