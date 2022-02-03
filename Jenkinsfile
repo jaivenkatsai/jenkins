@@ -5,7 +5,7 @@ pipeline{
 //              label 'WORKSTATION'
 //           }
 //     }
-    OPTIO
+    options
     environment {
         SAMPLE_URL = 'google.com'
     }
