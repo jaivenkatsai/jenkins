@@ -5,7 +5,7 @@ pipeline{
 //              label 'WORKSTATION'
 //           }
 //     }
-    odisable ptions{.}
+    ptions{.}
     environment {
         SAMPLE_URL = 'google.com'
     }
