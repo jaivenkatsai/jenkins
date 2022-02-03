@@ -21,7 +21,7 @@ pipeline{
         stage('Two') {
             agent {
                 node{
-                    lable ''
+                    lable 'JAVA'
                 }
             }
           steps {
