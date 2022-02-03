@@ -83,7 +83,7 @@ pipeline {
                 }
                 stage('p3') {
                     steps {
-                        sh 
+                        sh 'sleep 10'
                     }
                 }
             }
