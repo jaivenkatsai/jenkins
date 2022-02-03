@@ -5,9 +5,9 @@ pipeline{
 //              label 'WORKSTATION'
 //           }
 //     }
-   
+
     environment {
-        SAMPLE_URL = 
+        SAMPLE_URL = 'GOOGLE.COM'
     }
     stages {
 
