@@ -91,7 +91,7 @@ pipeline {
             parallel {
                 stage('p1') {
                     steps {
-                        
+                        sh 'sleep 10'
                     }
                 }
             }
