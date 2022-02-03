@@ -8,7 +8,7 @@ pipeline{
     options { disableConcurrentBuilds() }
 
     tools {
-        maven
+        maven 'maven'
     }
 
     parameters {
