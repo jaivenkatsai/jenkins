@@ -46,8 +46,8 @@ pipeline{
             agent {
                 node {
                     label 'JAVA'
-                }
-            }
+//               }
+//            }
 //       environment {
 //           SAMPLE_URL = 'yahoo.com'
 //       }
