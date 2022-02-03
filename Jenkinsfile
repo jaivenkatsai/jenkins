@@ -55,7 +55,7 @@ pipeline{
               sh 'echo Hello world'
               sh 'echo ${SAMPLE_URL}'
               sh 'mvn --version'
-          }
-      }
+//         }
+//      }
 //    }
 //}
