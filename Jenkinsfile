@@ -1,16 +1,10 @@
 pipeline{
-    agent none
-      agent {
-         node {
-             lable 'WORKSTATION'
-         }
-      } 
-    stages  {
-         
-        stage ('one') {
-           agent {
-               node {
-                  lable 'NODEJS'
+    agent any
+    stages{
+          
+      stage('one') {
+          steps {
+              sh 'echo Hello World'
           }
           
         }
