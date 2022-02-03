@@ -6,7 +6,7 @@ pipeline{
          }
       } 
       stages('one') {
-          steps {
+          agent {
               sh 'echo Hello World'
           }
           
