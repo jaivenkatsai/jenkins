@@ -7,7 +7,7 @@ pipeline{
        }
     stages{
           
-      stage('one') {
+        stage('one') {
           agent {
               node {
                   lable 'NODEJS'
