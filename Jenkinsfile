@@ -101,13 +101,10 @@ pipeline {
                 }
                 stage('p3') {
                     steps {
-                        sh 'sleep 10
+                        sh 'sleep 10'
                     }
-                }           
-            }
+                }           }
         }
-        stage(seq2) {
-            
         }
     }
 }
