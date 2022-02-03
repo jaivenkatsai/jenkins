@@ -6,6 +6,7 @@ pipeline{
 //           }
 //     }
     stages {
+
         stage('one') {
             agent {
                 node {
