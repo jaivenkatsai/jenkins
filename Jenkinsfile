@@ -20,7 +20,7 @@ pipeline{
         }
         stage('Two') {
             agent {
-                node{
+                node {
                     lable 'JAVA'
                 }
             }
