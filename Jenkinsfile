@@ -50,8 +50,8 @@ pipeline{
             }
         environment {
             SAMPLE_URL = 'yahoo.com'
-        }
-          steps {
+//       }
+//         steps {
 //             sh 'echo Hello world'
 //             sh 'echo ${SAMPLE_URL}'
 //             sh 'mvn --version'
