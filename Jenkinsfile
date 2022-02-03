@@ -29,7 +29,7 @@ pipeline{
                     label 'JAVA'
                 }
             }
-            
+        environment {}    
           steps {
               sh 'echo Hello world'
           }
