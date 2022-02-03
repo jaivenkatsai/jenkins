@@ -94,7 +94,9 @@ pipeline {
                         sh 'sleep 10'
                     }
                 }
-                stage('')
+                stage('p2') {
+                    
+                }
             }
         }
         }
