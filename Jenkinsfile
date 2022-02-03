@@ -41,8 +41,8 @@ pipeline{
 
         stage('Two') {
             when {
-                environment name: 'SAMPLE_URL', value: 'yahoo'
-          }
+               environment name: 'SAMPLE_URL', value: 'yahoo'
+//          }
 //           agent {
 //               node {
 //                   label 'JAVA'
