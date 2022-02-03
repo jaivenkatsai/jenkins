@@ -81,7 +81,7 @@ pipeline {
                         sh 'sleep 100'
                     }
                 }
-                
+                stage
             }
         }
     }
