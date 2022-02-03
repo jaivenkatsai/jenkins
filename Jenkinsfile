@@ -33,9 +33,9 @@ pipeline{
                   label 'NODEJS'
               }
           }
-            steps {
-              sh 'echo Hello World'
-              sh 'echo ${SAMPLE_URL}'
+          steps {
+//             sh 'echo Hello World'
+//             sh 'echo ${SAMPLE_URL}'
 //         }
 //       }
 //
