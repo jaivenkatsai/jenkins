@@ -31,7 +31,7 @@ pipeline{
             }
         environment {
             SAMPLE_URL = 'yahoo.com'
-        }    
+        }
           steps {
               sh 'echo Hello world'
               sh 'echo ${SAMPLE_URL}'
