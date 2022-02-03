@@ -30,8 +30,8 @@ pipeline{
         stage('one') {
             agent {
                 node {
-                  label 'NODEJS'
-              }
+//                 label 'NODEJS'
+//             }
 //         }
 //          steps {
 //             sh 'echo Hello World'
