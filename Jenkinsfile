@@ -104,7 +104,7 @@ pipeline {
                         sh 'sleep 10'
                     }
                 }           }
-        }
+            }
         }
     }
 }
