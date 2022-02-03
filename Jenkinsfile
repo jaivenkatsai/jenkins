@@ -48,8 +48,8 @@ pipeline{
                     label 'JAVA'
                 }
             }
-        environment {
-            SAMPLE_URL = 'yahoo.com'
+//       environment {
+//           SAMPLE_URL = 'yahoo.com'
 //       }
 //         steps {
 //             sh 'echo Hello world'
