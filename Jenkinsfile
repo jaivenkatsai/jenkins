@@ -109,7 +109,7 @@ pipeline {
         stage('seq2') {
             steps {
                 sh 'echo Hello'
-             }
+            }
         }
     }
 }
