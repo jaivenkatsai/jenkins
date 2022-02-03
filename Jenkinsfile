@@ -102,10 +102,10 @@ pipeline {
                 stage('p3') {
                     steps {
                         sh 'sleep 10
-                        
+
                     }
-                }           }
-        }
+                }           
+            }
         }
     }
 }
