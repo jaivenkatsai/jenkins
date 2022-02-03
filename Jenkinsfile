@@ -71,7 +71,7 @@ pipeline {
         }
         stage('par1') {
             parallel {
-                stage()
+                stage('p1') 
             }
         }
     }
