@@ -38,7 +38,8 @@ pipeline{
               sh 'echo ${SAMPLE_URL}'
           }
         }
-      stage('Two') {
+//
+//      stage('Two') {
 //           when {
 //               environment name: 'SAMPLE_URL', value: 'yahoo'
 //          }
