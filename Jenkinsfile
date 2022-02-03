@@ -106,6 +106,6 @@ pipeline {
                 }           
             }
         }
-        stage()
+        stage('seq2')
     }
 }
