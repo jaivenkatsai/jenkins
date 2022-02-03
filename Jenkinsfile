@@ -30,7 +30,7 @@ pipeline{
                 }
             }
         environment {
-            SAMPLE_URL
+            SAMPLE_URL = 'ya'
         }    
           steps {
               sh 'echo Hello world'
