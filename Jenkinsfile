@@ -70,7 +70,7 @@ pipeline {
             }
         }
         stage('par1') {
-            
+            parallel
         }
     }
 }
