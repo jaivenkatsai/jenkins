@@ -7,7 +7,7 @@ pipeline{
 //     }
    
     environment {
-        
+        SAMPLE_URL =
     }
     stages {
 
