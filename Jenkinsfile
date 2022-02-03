@@ -1,8 +1,8 @@
 pipeline{
     agent none
 //       agent {
-           node{
-               lable 'WORKSTATION'
+//          node{
+//              lable 'WORKSTATION'
            }
        }
     stages{
