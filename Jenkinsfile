@@ -5,7 +5,7 @@ pipeline{
              lable 'WORKSTATION'
          }
       } 
-    stages  {}
+    stages  {
           ('one') {
           agent {
             node 
