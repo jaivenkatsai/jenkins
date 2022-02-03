@@ -5,7 +5,7 @@ pipeline{
              lable 'WORKSTATION'
          }
       } 
-      stage('one') {
+      stages('one') {
           steps {
               sh 'echo Hello World'
           }
