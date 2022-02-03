@@ -5,7 +5,7 @@ pipeline{
 //              label 'WORKSTATION'
 //           }
 //     }
-    options
+    options{.}
     environment {
         SAMPLE_URL = 'google.com'
     }
