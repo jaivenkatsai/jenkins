@@ -28,5 +28,5 @@ pipeline{
               sh 'echo Hello world'
           }
       }
-    } 
+    }
 }
