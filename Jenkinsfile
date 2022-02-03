@@ -40,7 +40,9 @@ pipeline{
         }
 
         stage('Two') {
-            
+            when {
+                
+            }
             agent {
                 node {
                     label 'JAVA'
