@@ -3,8 +3,8 @@ pipeline{
 //       agent {
 //          node{
 //              lable 'WORKSTATION'
-           }
-       }
+//           }
+     }
     stages{
           
         stage('one') {
