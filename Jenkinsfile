@@ -108,7 +108,7 @@ pipeline {
         }
         stage('seq2') {
             steps {
-                sh 'echo '
+                sh 'echo Hello'
             }
         }
     }
