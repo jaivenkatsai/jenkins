@@ -69,6 +69,6 @@ pipeline {
                 sh 'echo Hello'
             }
         }
-    
+        stage
     }
 }
