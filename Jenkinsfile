@@ -24,10 +24,9 @@ pipeline{
     }
     environment {
         SAMPLE_URL = 'google.com'
-    }
-    stages {
-
-        stage('one') {
+    }  stages {
+//
+//       stage('one') {
 //           agent {
 //               node {
 //                 label 'NODEJS'
