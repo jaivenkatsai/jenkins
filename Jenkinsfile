@@ -18,9 +18,9 @@ pipeline{
           }
           
         }
-        stage('Two') {
+        stage('Two') {node{}
             agent {
-                
+
             }
           steps {
               sh 'echo Hello world'
