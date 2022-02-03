@@ -19,7 +19,9 @@ pipeline{
           
         }
         stage('Two') {
-            agent
+            agent {
+                
+            }
           steps {
               sh 'echo Hello world'
           }
