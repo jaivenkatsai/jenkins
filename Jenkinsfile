@@ -34,6 +34,7 @@ pipeline{
         }    
           steps {
               sh 'echo Hello world'
+              sh 'ec'
           }
       }
     }
