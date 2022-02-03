@@ -8,12 +8,12 @@ pipeline{
     stages{
           
         stage('one') {
-          agent {
-              node {
+            agent {
+                node {
                   lable 'NODEJS'
               }
           }
-          steps {
+            steps {
               sh 'echo Hello World'
           }
           
