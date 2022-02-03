@@ -62,5 +62,5 @@ pipeline{
 
 
 pipeline {
-    
+    agent any
 }
