@@ -4,7 +4,7 @@ pipeline{
 //          node{
 //              lable 'WORKSTATION'
 //           }
-     }
+//     }
     stages{
           
         stage('one') {
