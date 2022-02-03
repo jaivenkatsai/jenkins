@@ -66,7 +66,7 @@ pipeline {
     stages {
         stage('seq1') {
             steps {
-                sh 
+                sh 'echp Hello'
             }
         }
     }
