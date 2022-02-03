@@ -5,9 +5,9 @@ pipeline{
 //              label 'WORKSTATION'
 //           }
 //     }
-    options { disableConcurrentBuilds() }
+//   options { disableConcurrentBuilds() }
 
-    tools {
+//   tools {
 //        maven 'maven'
 //   }
 
