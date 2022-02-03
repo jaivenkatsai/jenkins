@@ -16,9 +16,9 @@ pipeline{
 
         text(name: 'BIOGRAPHY', defaultValue: '', description: 'Enter some information about the person')
 
-        booleanParam(name: 'TOGGLE', defaultValue: true, description: 'Togle this Value')
-
-/       choice(name: 'CHOICE', choices: ['one', 'tow', 'three'], description: 'pick something')
+//       booleanParam(name: 'TOGGLE', defaultValue: true, description: 'Togle this Value')
+//
+//       choice(name: 'CHOICE', choices: ['one', 'tow', 'three'], description: 'pick something')
 //
 //       password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
 //   }
