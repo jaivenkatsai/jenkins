@@ -12,7 +12,7 @@ pipeline{
         text(name: BIOGRAPHY, defaultValue: '', description: 'Enter some information about the person')
         boleanParam(name: TOGGLE, defaultValue: true, description: 'Togle this Value')
         choice(name: 'CHOICE', choices: ['one', 'tow', 'three'], description: 'pick something')
-        password(name: 'PASSWORD', )
+        password(name: 'PASSWORD', default)
     }
     environment {
         SAMPLE_URL = 'google.com'
