@@ -5,7 +5,7 @@ pipeline{
 //              label 'WORKSTATION'
 //           }
 //     }
-    ptions{.}
+    ptions{.disable}
     environment {
         SAMPLE_URL = 'google.com'
     }
